@@ -1,7 +1,7 @@
 # Tic-Tac-Toe em Typescript com diferentes níveis de dificuldade
 
 Tentei utilizar os princípios do S.O.L.I.D nesse projeto, embora ele seja basicamente baseado em um paradigma funcional e não em POO.
-Acredito que a ideia que eu mais usei se basei na single responsibility.
+Acredito que a ideia que eu mais usei se baseie na single responsibility.
 
 EASY
 
