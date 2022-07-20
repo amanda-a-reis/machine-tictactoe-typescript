@@ -1,12 +1,7 @@
 import { winnerMoviments } from '../../../constants/options'
-import { generateCombinations } from '../tools/generate-combinations'
+import { generateArrayOfStringCombinations } from '../tools/array-string-generate'
 
 export const verifyIfWins = (competitor: number[]): boolean => {
-  const arrayCompetitor = []
-  for (const element of competitor) {
-    arrayCompetitor.push(`${element}`)
-  }
-  const combinations = generateCombinations(arrayCompetitor)
-
+  const combinations = generateArrayOfStringCombinations(competitor)
   return combinations.filter(element => winnerMoviments.includes(element)).length > 0
 }

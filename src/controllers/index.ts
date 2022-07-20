@@ -12,6 +12,9 @@ const game = (req, res): void => {
     if (mode === 'medium') {
       res.status(200).json(makeMoviment('medium', user, machine))
     }
+    if (mode === 'hard') {
+      res.status(200).json(makeMoviment('hard', user, machine))
+    }
   } catch (error) {
     res.status(500).json({ message: error })
   }
