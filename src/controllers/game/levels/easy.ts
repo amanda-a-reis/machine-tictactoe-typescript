@@ -3,7 +3,7 @@ import { randomicNumber } from '../tools/randomic-number'
 
 export function easy (movementsDone: number[]): number {
   const validMovements = options.filter(element => !movementsDone.includes(element))
-  return validMovements[randomicNumber(0, validMovements.length)]
+  return validMovements[randomicNumber(0, validMovements.length - 1)]
 }
 
 export default easy
