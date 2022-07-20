@@ -5,6 +5,5 @@ import { generateCombinations } from '../controllers/game/tools/generate-combina
 const router = express.Router()
 
 router.post('/game', game)
-router.post('/combinations', generateCombinations)
 
 export default router
