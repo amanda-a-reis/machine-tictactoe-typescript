@@ -1,6 +1,6 @@
 import { status } from '../status/game-status'
 import { IStatusGame } from '../protocols/status-game'
-import medium from '../levels/medium'
+import medium from '../levels/medium/medium'
 import easy from '../levels/easy'
 import { hard } from '../levels/difficult/hard'
 

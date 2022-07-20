@@ -1,5 +1,5 @@
 import easy from './game/levels/easy'
-import medium from './game/levels/medium'
+import medium from './game/levels/medium/medium'
 import { makeMoviment } from './game/tools/make-moviment'
 
 const game = (req, res): void => {
